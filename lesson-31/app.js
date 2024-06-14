@@ -96,6 +96,7 @@ app.use((req, res, next) => {
  */
 
 
+// 데이터베이스 연결 설정
 const mongoose = require("mongoose"); // mongoose를 요청
 // 데이터베이스 연결 설정
 mongoose.connect(
